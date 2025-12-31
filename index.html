@@ -68,15 +68,15 @@
       <div data-cy="hw1-skills-box-pre">
         <h2>Мои скиллы</h2>
         <label>
-          <input type="checkbox" name="skills" value="html5">
+          <input checked="checkbox" name="skills" value="html5">
           HTML5
         </label>
         <label>
-          <input type="checkbox" name="skills" value="css3">
+          <input checked="checkbox" name="skills" value="css3">
           CSS3
         </label>
         <label>
-          <input type="checkbox" name="skills" value="java script">
+          <input checked type="checkbox" name="skills" value="java script">
           JavaScript
         </label>
         <label>
@@ -92,15 +92,15 @@
                 - Каждый чекбокс должен быть связан со своей подписью. Для этого чекбокс должен находиться в элементе для подписи
                 - Отметь "галочкой" (с помощью специального атрибута) темы, которые ты уже знаешь. -->
       </div>
-      <label for="skill"></label>
+      
       <input type="text" id="skill" placeholder="Новый скилл">
       <button type="button">Добавить</button>
       <hr>
       <!-- 5) Создай здесь однострочное поле для ввода текста с подсказкой "Новый скилл", которая исчезает, когда начинаешь что-то печатать (для подсказки есть специальный атрибут) -->
       <!-- 6) Создай здесь кнопку “Добавить” -->
       <!-- 7) Добавь горизонтальную линию (для этого есть специальный тег) -->
-
-      <table border="1">
+ <table data-cy="hw-about-table-pre" border="1">
+      
         <thead>
           <tr>
             <th>п/п</th>
@@ -132,7 +132,7 @@
                <td>4</td>
             </tr>
         </tfoot>
-      </table>
+     </table>
       <!-- 8) В таблице сделай 5 строк и 3 столбца. 
                         - В первой строке ячейки заголовков, в остальных обычные ячейки
                         - Добавь границы для всей таблицы с помощью специального атрибута border="". Он устарел, но работает
@@ -140,7 +140,7 @@
     </section>
     <footer data-cy="hw-footer-pre">
       <!-- 9) Создай здесь ссылку на наш сайт https://it-incubator.io/ (текст ссылки должен быть it-incubator) -->
-      <a href="https://it-incubator.io/ " target="_blank">it-incubator </a>
+      <a href="https://it-incubator.io/" target="_blank">it-incubator </a>
     </footer>
   </body>
 </html>
